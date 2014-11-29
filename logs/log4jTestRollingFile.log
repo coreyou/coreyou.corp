@@ -1,0 +1,24 @@
+2014-09-21 14:59:51,637 [loggingUtil.Log4jTest]-[ERROR] error info...
+2014-09-21 14:59:51,640 [loggingUtil.Log4jTest]-[FATAL] fatal info...
+2014-09-21 14:59:51,641 [loggingUtil.Log4jTest]-[ERROR] error 一個例外
+java.lang.NullPointerException
+	at loggingUtil.Log4jTest.main(Log4jTest.java:40)
+2014-09-21 14:59:51,642 [loggingUtil.Log4jTest]-[FATAL] fatal 一個例外
+java.lang.NullPointerException
+	at loggingUtil.Log4jTest.main(Log4jTest.java:40)
+2014-09-21 15:13:10,940 [loggingUtil.Log4jTest]-[ERROR] error info...
+2014-09-21 15:13:10,942 [loggingUtil.Log4jTest]-[FATAL] fatal info...
+2014-09-21 15:13:10,943 [loggingUtil.Log4jTest]-[ERROR] error 一個例外
+java.lang.NullPointerException
+	at loggingUtil.Log4jTest.main(Log4jTest.java:40)
+2014-09-21 15:13:10,945 [loggingUtil.Log4jTest]-[FATAL] fatal 一個例外
+java.lang.NullPointerException
+	at loggingUtil.Log4jTest.main(Log4jTest.java:40)
+2014-09-20 15:13:43,818 [loggingUtil.Log4jTest]-[ERROR] error info...
+2014-09-20 15:13:43,822 [loggingUtil.Log4jTest]-[FATAL] fatal info...
+2014-09-20 15:13:43,823 [loggingUtil.Log4jTest]-[ERROR] error 一個例外
+java.lang.NullPointerException
+	at loggingUtil.Log4jTest.main(Log4jTest.java:40)
+2014-09-20 15:13:43,825 [loggingUtil.Log4jTest]-[FATAL] fatal 一個例外
+java.lang.NullPointerException
+	at loggingUtil.Log4jTest.main(Log4jTest.java:40)
