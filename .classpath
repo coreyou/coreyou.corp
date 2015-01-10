@@ -9,7 +9,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 7.0/lib/postgresql-9.3-1102.jdbc3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/coreyou/Downloads/eclipse-jee-kepler-SR2-win32-x86_64/relativeLib/apache-log4j-1.2.17/log4j-1.2.17.jar"/>
-	<classpathentry kind="lib" path="C:/Users/coreyou/Downloads/eclipse-jee-kepler-SR2-win32-x86_64/relativeLib/commons-logging-1.2/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.17.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
