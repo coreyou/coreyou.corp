@@ -4,7 +4,14 @@ import java.io.UnsupportedEncodingException;
 
 //import org.apache.commons.codec.binary.Base64;
 import java.util.*;
-
+/**
+ * Base64是一種能將任意Binary資料用64種字元組合成字串的方法，
+ * 而這個Binary資料和字串資料彼此之間是可以互相轉換的，十分方便。
+ * 在實際應用上，Base64除了能將Binary資料可視化之外，也常用來表示字串加密過後的內容。
+ * 
+ * @author coreyou
+ *
+ */
 public class Base64Codec {
 	public static void main(String[] args) {
 		/*
