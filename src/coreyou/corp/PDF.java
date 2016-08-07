@@ -81,6 +81,7 @@ public class PDF {
 			// 來源檔案
 			PdfReader reader = new PdfReader("C:/Users/coreyou/Downloads/test.pdf");
 			PdfStamper stamper = new PdfStamper(reader, new FileOutputStream(outputFile));
+//			stamper.setFullCompression();	// 設定最大壓縮率
 			Rectangle rectangle = reader.getPageSize(1);
 			float docWidth = rectangle.getWidth();
 			float height = rectangle.getHeight();
@@ -142,7 +143,7 @@ public class PDF {
 	}
 
 	public static void main(String[] args) {
-		String imageFilePath = "C:/Users/coreyou/Downloads/bussinessTime.jpg"; // 浮水印圖片路徑
+		String imageFilePath = "C:/Users/coreyou/Downloads/businessTime.jpg"; // 浮水印圖片路徑
 		String pdfFilePath = "C:/Users/coreyou/Downloads/test2.pdf"; // 文件生成路徑
 		buidPDF(pdfFilePath, imageFilePath, "浮水印文字內容", 16);
 	}
