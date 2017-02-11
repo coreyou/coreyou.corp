@@ -1,0 +1,8 @@
+2015-04-20 10:20:01,454 [loggingUtil.Log4jTest]-[ERROR] error info...
+2015-04-20 10:20:01,471 [loggingUtil.Log4jTest]-[FATAL] fatal info...
+2015-04-20 10:20:01,474 [loggingUtil.Log4jTest]-[ERROR] error 一個例外
+java.lang.NullPointerException
+	at loggingUtil.Log4jTest.main(Log4jTest.java:40)
+2015-04-20 10:20:01,484 [loggingUtil.Log4jTest]-[FATAL] fatal 一個例外
+java.lang.NullPointerException
+	at loggingUtil.Log4jTest.main(Log4jTest.java:40)
